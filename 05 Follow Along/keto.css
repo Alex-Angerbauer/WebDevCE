@@ -100,6 +100,41 @@ main a:hover {
     background-color:#eee;
 }
 
+/* main image stuff here */
+figure.taste_food {
+    margin: 0 0 0 10px;
+    width: 40%;
+    float: right;
+}
+
+figure.taste_food img {
+    width: 100%;
+    height: auto;
+}
+
+figure.taste_food figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+/* Gallery Stuff here */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #b64e11;
+    font-weight: 500;
+}
+
 /* footer stuff here */
 footer {
     border-top: solid #ccc 2px;
