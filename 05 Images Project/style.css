@@ -1,0 +1,190 @@
+
+
+/* Here are the hex code links for the Stubai color theme in Adboe colors 
+    Dark Blue: 
+#1D4273
+
+    Blue: 
+#26528C
+
+    Light Blue: 
+#4177A6
+
+    Periwinkle:
+#7EA1BF
+
+    Gray:
+#EBEFF2
+
+*/
+
+
+/* Font family for the whoe page here */
+body {
+    font-family: "raleway", sans-serif;
+    margin: 0;
+}
+
+
+/* Header stuff here */
+header {
+    background-color: #EBEFF2;
+    padding: .5rem 10px;
+}
+
+header span {
+    color: #1D4273;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/* Navigation Stuff here */
+nav {
+    background-color: #7EA1BF;
+    font-weight: 400;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0rem .75rem;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .5rem .75rem;
+    text-decoration: none;
+    font-size: 48px;
+    color: #1D4273;
+    font-weight: 900;
+}
+
+nav li.active a {
+    background-color: #1D4273;
+    color: #7EA1BF;
+}
+
+nav li a:hover {
+    color: #EBEFF2;
+}
+
+/* Main Stuff Here */
+main {
+    padding: .5rem .75rem;
+    background-color: #EBEFF2;
+}
+
+main h1 {
+    color: #4177A6;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+main h2 {
+    color: #1D4273;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main li {
+    color: #1D4273;
+}
+
+main ol {
+    font-size: 25px;
+}
+
+main dl {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+main dl dd {
+    font-weight: 500;
+    color: #1D4273;
+    font-size: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main address {
+    font-style: normal;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #1D4273;
+    width: 200px;
+    color: #1D4273;
+    text-decoration: none;
+}
+
+main address a {
+    text-decoration: none;
+    color: #1D4273;
+}
+
+/* Image stuff here */
+figure.main_image {
+    margin: 0 0 0 10px;
+    width: 25%;
+    float: right
+}
+
+figure.main_image img {
+    width: 100%;
+    height: auto;
+}
+
+figure.main_image figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+/* Gallery Stuff here */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #b64e11;
+    font-weight: 500;
+}
+
+/* Footer Stuff here */
+footer {
+    margin: 0;
+    background-color: #EBEFF2;
+    padding: .5rem .75rem
+}
+
+footer a {
+    color: #1D4273;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #7EA1BF;
+}
+
+
+/* Backgorund color for the whole page */
+html {
+    background-color: #EBEFF2;
+}
