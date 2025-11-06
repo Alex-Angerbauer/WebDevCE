@@ -1,0 +1,113 @@
+<!--This website is purely for educational purposes only. 
+The products advertised in this website are fictional and any resemblence to real life features is purely coincidental-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alex Angerbauer">
+        <meta name="description" content="Your go to website to make it easier for skiers to find the cheapest pass to the resorts they want to go to.">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <title>Donate</title>
+    </head>
+
+
+
+    <body>
+         <header>
+            <div>
+                <img src="logo.png" alt="Logo for Ski Pass Finder" width="52" height="47">
+                <span style="font-weight: 900; font-size: 2rem;"><strong>Ski Pass Finder</strong></span>
+            </div>
+            <br>
+            <span style="font-size: 1.5rem;"><i>Your Shortcut to the Summit!</i></span>
+        </header>
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="findapass.html">Find a Pass</a></li>
+                <li><a href="compareprices.html">Compare Prices</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+
+
+        <main>
+            <h1>Donate</h1>
+            <p>Donate to Ski Pass Finder so we can better your pass finding experience. <br>
+               70% of profits go to help preserve our forests and land.</p>
+            
+            <br>
+            <br>
+
+            <h1>Donate Here:</h1>
+
+            <form method="get" class="myForm" action="thanks.html">
+
+                <fieldset>
+                <legend>Donor Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="800-738-0975"></label>
+                <label>Email*<input type="email" name="email" required placeholder="JohnDoe@hotmail.com"></label>
+                </fieldset>
+
+
+                <fieldset>
+                <legend>Select Organization for Proceeds</legend>
+                <label><input type="radio" name="method" value="POW">POW (Protect Our Winters)</label>
+                <label><input type="radio" name="method" value="NPS">NPS (National Park Service)</label>
+                <label><input type="radio" name="method" value="NFS">NFS (National Forest Service)</label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Subscription Options</legend>
+                <label><input type="checkbox" name="One-time" value="chosen">One time payment</label>
+                <label><input type="checkbox" name="$1" value="chosen">I would like to donate $1 monthly</label>
+                <label><input type="checkbox" name="$5" value="chosen">I would like to donate $5 monthly</label>
+                <label><input type="checkbox" name="$10" value="chosen">I would like to donate $10 monthly</label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Payment Type</legend>
+                <label> 
+                <select name="Payment Type">
+                <option value="none">Please Select</option>
+                <option value="Visa">Visa</option>
+                <option value="Debit">Debit</option>
+                <option value="Check">Check</option>
+                <option value="Cash">Cash</option>
+                </select>
+                </label>
+                </fieldset>
+
+            
+
+                <label>Comments
+                <textarea name="comments"></textarea> 
+                </label>
+
+               
+
+                <input class=".button" type="submit" value="Send Delivery Request">
+            </form>
+        </main>
+
+        <br>
+        <br>
+        <br>
+
+        <footer>
+            <p> &copy; 2025 &bull; Alex S. Angerbauer &bull; <a href="https://www.dgmuvu.com/dgmcourses/dwdd1600/unit00.php" target="_blank">Web Dev</a> </p>
+        </footer>
+    </body>
+</html>
