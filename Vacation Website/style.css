@@ -1,0 +1,81 @@
+
+
+/* Here are the hex code links for the OSU Color Palette - Primary & Neutral
+ color theme in Adboe colors:
+
+    Red:
+#BB0000
+
+    Grey:
+#666666
+
+    Olive:
+#DDDEC6
+
+    Brown:
+#453831
+
+    Black:
+#000000
+
+*/
+
+
+/* Prevent Problems on Different Browsers */
+* {
+    box-sizing: border-box;
+}
+
+/* Font family for the whoe page here */
+body {
+    font-family: "tinos", serif;
+    margin: 0;
+}
+
+
+/* Header stuff here */
+
+
+/* Navigation Stuff here */
+/* small screen navigation */
+/* end small screens */
+
+
+/* LARGE SCREEN NAVIGATION */
+
+/* END LARGE SCREENS */
+
+/* Main Stuff Here */
+.hero { 
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: .5rem .75rem;
+}
+
+/* Form CSS here */
+
+
+/* Image stuff here */
+
+/* Gallery Stuff here */
+
+
+
+
+/* Table Stuff Here */
+
+
+/* Footer Stuff here */
+
+
+
+/* Backgorund color for the whole page */
+
+
+header, nav, main, footer {
+    max-width: 80rem;
+    margin: 0 auto;
+}
