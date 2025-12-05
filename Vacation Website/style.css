@@ -46,14 +46,14 @@ header div {
 }
 
 header span {
-    color: #BB0000;
+    color: #666666;
     font-size: 1.5rem;
     font-weight: 300;
 }
 
 /* Navigation Stuff here */
 /* small screen navigation */
-@media only screen and (max-width: 42rem){
+@media only screen and (max-width: 81rem){
 nav ul {
     margin: 0;
     padding: 0;
@@ -76,7 +76,10 @@ nav .active a {
 }
 nav a:hover {
     color: #4177A6;
-}}
+}
+
+
+}
 /* end small screens */
 
 
