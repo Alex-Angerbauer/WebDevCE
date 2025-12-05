@@ -51,7 +51,7 @@ header span {
 
 /* Navigation Stuff here */
 /* small screen navigation */
-@media only screen and (max-width: 90rem){
+@media only screen and (max-width: 81rem){
 nav ul {
     margin: 0;
     padding: 0;
@@ -81,7 +81,7 @@ nav a:hover {
 
 
 /* LARGE SCREEN NAVIGATION */
-@media only screen and (min-width: 90rem) {
+@media only screen and (min-width: 81rem) {
     nav {
     background-color: #7EA1BF;
     font-weight: 400;
